@@ -1,2 +1,2 @@
-# sailrc_new
-New repository for the SailRC application development.
+# Sail Race Control
+An application to prepare, conduct and evaluate a sailing race.

@@ -1,0 +1,14 @@
+{
+  "name": "sailrc",
+  "version": "0.0.1",
+  "description": "Sail Race Control - Plan, conduct and analyse a sailing race.",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZsZs/sailrc_new.git",
+    "directory": "apps/sailrc"
+  },
+  "homepage": "https://github.com/ZsZs/sailrc_new#readme",
+  "dependencies": {
+  }
+}

@@ -1,0 +1,22 @@
+mat-toolbar {
+  background-color: rgb(92, 218, 207);
+}
+
+.app-logo {
+  margin: 5px;
+  border: 5px solid white;
+}
+
+mat-menu {
+  width: 100%;
+}
+
+.handset-layout {
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+button.handset-layout > span:nth-child(2) {
+  margin-bottom: 20px;
+}
