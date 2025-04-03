@@ -1,6 +1,9 @@
 name: e2e-tests
 description: End to End playwright tests
 inputs:
+  npm_script:
+    description: Name of the NPM script to run
+    required: true
   target_environment:
     description: Target environment.
     required: true
@@ -21,7 +24,7 @@ runs:
       shell: bash
 
     - name: Run Playwright tests
-      run: npm run e2e-test-processpuzzle-testbed
+      run: npm run ${{inputs.npm_script}}
       shell: bash
       env:
         ENVIRONMENT: ${{inputs.target_environment}}
