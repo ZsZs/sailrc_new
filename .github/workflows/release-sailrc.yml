@@ -23,7 +23,7 @@ jobs:
         name: Get Version from package.json
         uses: martinbeentjes/npm-get-version-action@v1.3.1
         with:
-          path: apps/processpuzzle-testbed
+          path: apps/sailrc
 
       - name: Install Node
         uses: actions/setup-node@v4
@@ -45,7 +45,7 @@ jobs:
         name: Lint test and build the application
         uses: ./.github/actions/lint-test-build
         with:
-          base_dir: 'apps/processpuzzle-testbed'
+          base_dir: 'apps/sailrc'
           nx_project: testbed
           github_token: ${{ secrets.GITHUB_TOKEN }}
           sonar_token: ${{ secrets.SONAR_TOKEN }}
@@ -66,7 +66,7 @@ jobs:
         uses: ./.github/actions/deploy-to-firebase
         with:
           firebase_service_account: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
-          project_id: processpuzzle-testbed
+          project_id: sailrc-prod
           channel_id: 'live'
           project_root: .
 
@@ -86,13 +86,13 @@ jobs:
       - name: Copy package.json
         shell: bash
         run: |
-          cp -R apps/processpuzzle-testbed/package.json dist/apps/processpuzzle-testbed
-          cp -R apps/processpuzzle-testbed/README.md dist/apps/processpuzzle-testbed
-          rm dist/apps/processpuzzle-testbed/browser/environments/environment.ts
+          cp -R apps/sailrc/package.json dist/apps/sailrc
+          cp -R apps/sailrc/README.md dist/apps/sailrc
+          rm dist/apps/sailrc/browser/environments/environment.ts
 
       - name: Publish packages
         shell: bash
-        run: npx nx release publish --projects=processpuzzle-testbed --access public --no-cloud
+        run: npx nx release publish --projects=sailrc --access public --no-cloud
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_CONFIG_PROVENANCE: true
