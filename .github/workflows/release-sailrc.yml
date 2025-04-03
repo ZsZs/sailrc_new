@@ -1,4 +1,4 @@
-name: Release-Testbed
+name: Release-SailRC
 on:
   push:
     branches:
