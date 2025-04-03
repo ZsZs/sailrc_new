@@ -2,9 +2,9 @@ name: Release-Testbed
 on:
   push:
     branches:
-      - "release/testbed/*"
+      - "release/sailrc/*"
     paths:
-      - 'apps/processpuzzle-testbed/**'
+      - 'apps/sailrc/**'
 permissions:
   id-token: write
   contents: write
