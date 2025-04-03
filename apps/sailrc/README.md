@@ -7,8 +7,8 @@
 # Sail Race Control
 This application facilitates conducting a sail race. The main features are as follows:
 ### Race Planning
-- maintains information about sailors, boats, boat classes and sailing organisations.
-- announcement of race,
+- maintains information about sailors, boats, boat classes and sailing organisations
+- announcement of a race
 - sign up for race
 ### Race Conduction
 - define race field with buoys
