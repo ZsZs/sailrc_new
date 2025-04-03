@@ -58,7 +58,7 @@ jobs:
         with:
           cicd_stage: 'prod'
           app_version: '${{ steps.package-version.outputs.current-version }}'
-          dockerhub_username: ${{ secrets.DOCKERHUB_USERNAME }}
+          dockerhub_username: ${{ secrets.DOCKERHUB_USER }}
           dockerhub_token: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - id: deploy-to-firebase
