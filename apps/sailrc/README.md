@@ -13,7 +13,7 @@ This application facilitates conducting a sail race. The main features are as fo
 ### Race Conduction
 - define race field with buoys
 - identify participants in a lap
-- facilitate start with countdown, flags and video capgture
+- facilitate start with countdown, flags and video capture
 - facilitate finish with photo finish and image recognition
 - live video streaming
 - live track of boats
