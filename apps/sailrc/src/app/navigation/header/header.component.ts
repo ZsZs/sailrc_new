@@ -25,10 +25,6 @@ export class HeaderComponent {
   readonly toggleSideNav = output<undefined>();
 
   // region event handlers
-  async navigateToHome() {
-    await this.router.navigateByUrl('/');
-  }
-
   sidenavToggle() {
     this.toggleSideNav.emit(undefined);
   }
