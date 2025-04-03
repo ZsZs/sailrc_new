@@ -16,6 +16,14 @@ describe('HeaderComponent', () => {
   });
 
   describe('Verify DOM event handling', () => {
+    it('Call toggleSideNav', async () => {
+      const { fixture } = await render(HeaderComponent);
+      const spy = jest.spyOn(fixture.componentInstance.toggleSideNav, 'emit');
+      const menuButton = screen.getByTestId('sidenav-toggle');
+      fireEvent.click(menuButton);
+      expect(spy).toHaveBeenCalled();
+    });
+
     it('Click on menu button emits an undefined event', async () => {
       const toggleSideNavSpy = jest.fn();
       await render( HeaderComponent, { on: {
