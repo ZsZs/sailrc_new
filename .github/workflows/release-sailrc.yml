@@ -74,6 +74,7 @@ jobs:
         name: run-integration-tests
         uses: ./.github/actions/e2e-test
         with:
+          npm_script: 'e2e-test-sailrc'
           target_environment: 'prod'
 
       - name: Config Git
