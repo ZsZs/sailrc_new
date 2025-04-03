@@ -1,4 +1,4 @@
-name: Release-Testbed
+name: Release-SailRC
 on:
   push:
     branches:
@@ -46,10 +46,10 @@ jobs:
         uses: ./.github/actions/lint-test-build
         with:
           base_dir: 'apps/sailrc'
-          nx_project: testbed
+          nx_project: sailrc
           github_token: ${{ secrets.GITHUB_TOKEN }}
           sonar_token: ${{ secrets.SONAR_TOKEN }}
-          firebase_token: ${{ secrets.FIREBASE_TOKEN_PROD }}
+          firebase_api_key: ${{ secrets.FIREBASE_API_KEY }}
           cicd_stage: 'prod'
 
       - id: build-images
@@ -102,5 +102,5 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          title: "@processpuzzle/testbed/${{steps.package-version.outputs.current-version}}"
-          tag: "testbed-${{ steps.package-version.outputs.current-version }}"
+          title: "sailrc/${{steps.package-version.outputs.current-version}}"
+          tag: "sailrc-${{ steps.package-version.outputs.current-version }}"

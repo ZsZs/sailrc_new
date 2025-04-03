@@ -48,6 +48,45 @@
       "dependsOn": ["^build"]
     }
   },
+  "release": {
+    "projects": [
+      "sailrc"
+    ],
+    "projectsRelationship": "independent",
+    "version": {
+      "conventionalCommits": true,
+      "generatorOptions": {
+        "fallbackCurrentVersionResolver": "disk"
+      }
+    },
+    "conventionalCommits": {
+      "types": {
+        "docs": {
+          "semverBump": "none",
+          "changelog": {
+            "title": "Documentation Changes"
+          }
+        },
+        "chore": {
+          "changelog": false
+        }
+      }
+    },
+    "versionPlans": {
+      "ignorePatternsForPlanCheck": [
+        "**/*.spec.ts"
+      ]
+    },
+    "releaseTagPattern": "release/{projectName}/{version}",
+    "git": {
+      "commitMessage": "chore(release): {projectName}-{version}"
+    },
+    "changelog": {
+      "file": false,
+      "createRelease": "github",
+      "projectChangelogs": true
+    }
+  },
   "plugins": [
     {
       "plugin": "@nx/playwright/plugin",
