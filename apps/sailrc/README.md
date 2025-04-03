@@ -22,3 +22,5 @@ This application facilitates conducting a sail race. The main features are as fo
 - replay video
 - replay boat tracks
   *For a detailed description of the functionalities and design please read the [Wiki](https://github.com/ZsZs/sailrc/wiki)
+
+
