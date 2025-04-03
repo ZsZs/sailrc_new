@@ -18,7 +18,10 @@
           {
             "glob": "**/*",
             "input": "apps/sailrc/public"
-          }
+          },
+          "apps/sailrc/src/assets",
+          "apps/sailrc/src/environments",
+          "apps/sailrc/src/run-time-conf"
         ],
         "styles": [
           "apps/sailrc/src/styles.scss",
