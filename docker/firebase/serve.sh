@@ -20,7 +20,7 @@ for dir in "${dirs[@]}"; do
   fi
 done
 
-firebase login:ci --token "$FIREBASE_TOKEN"
+#firebase login:ci --token "${FIREBASE_TOKEN}"
 
 # Start Firebase emulators
 emulator_cmd="firebase emulators:start --project=${FIREBASE_PROJECT}"
