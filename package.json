@@ -16,7 +16,7 @@
     "lint-sailrc": "nx run sailrc:lint --configuration=ci --no-cloud",
     "test-sailrc": "nx run sailrc:test --configuration=ci --coverage --no-cloud",
     "e2e-test-sailrc": "nx e2e sailrc-e2e --no-cloud",
-    "build-sailrc": "nx run sailrc:build --configuration=production"
+    "build-sailrc": "nx run sailrc:build --configuration=production --no-cloud"
   },
   "dependencies": {
     "@angular/animations": "~19.2.4",
