@@ -1,0 +1,37 @@
+<div [ngClass]="layoutService.layoutClass()">
+  <mat-card>
+    <mat-card-title><a routerLink="/race-conduction/participant">Results</a></mat-card-title>
+    <mat-card-content>View race results.</mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button>Read more...</button>
+      <button color="primary" mat-raised-button routerLink="/race-conduction/participant">Go...</button>
+    </mat-card-actions>
+  </mat-card>
+
+  <mat-card>
+    <mat-card-title><a routerLink="/race-conduction/field">Replay</a></mat-card-title>
+    <mat-card-content>Replay tracking or video recordings.</mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button>Read more...</button>
+      <button color="primary" mat-raised-button routerLink="/race-conduction/field">Go...</button>
+    </mat-card-actions>
+  </mat-card>
+
+  <mat-card>
+    <mat-card-title><a routerLink="/race-conduction">Analyse</a></mat-card-title>
+    <mat-card-content>Analyse your racing tactic compared with others supported by AI.</mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button>Read more...</button>
+      <button color="primary" mat-raised-button routerLink="/race-conduction">Go...</button>
+    </mat-card-actions>
+  </mat-card>
+
+  <mat-card>
+    <mat-card-title><a routerLink="/race-conduction">Chat</a></mat-card-title>
+    <mat-card-content>Chat with fellows and audience.</mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button>Read more...</button>
+      <button color="primary" mat-raised-button routerLink="/race-conduction">Go...</button>
+    </mat-card-actions>
+  </mat-card>
+</div>

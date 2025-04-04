@@ -1,1 +1,26 @@
-<h1>Sail Race Control</h1>
+<div [ngClass]="layoutService.layoutClass()">
+  <mat-card>
+    <mat-card-title><a routerLink="/race-planning">Plan Race</a></mat-card-title>
+    <mat-card-content>Plan, search and sign up for races.</mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button>Read more...</button>
+      <button color="primary" mat-raised-button routerLink="/race-planning">Go...</button>
+    </mat-card-actions>
+  </mat-card>
+  <mat-card>
+    <mat-card-title><a routerLink="/race-conduction">Conduct Race</a></mat-card-title>
+    <mat-card-content>Start and conduct your race!</mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button>Read more...</button>
+      <button color="primary" mat-raised-button routerLink="/race-conduction">Go...</button>
+    </mat-card-actions>
+  </mat-card>
+  <mat-card>
+    <mat-card-title><a routerLink="/race-analysis">Analyse Race</a></mat-card-title>
+    <mat-card-content>Animate and analyse your race.</mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button>Read more...</button>
+      <button color="primary" mat-raised-button routerLink="/race-analysis">Go...</button>
+    </mat-card-actions>
+  </mat-card>
+</div>

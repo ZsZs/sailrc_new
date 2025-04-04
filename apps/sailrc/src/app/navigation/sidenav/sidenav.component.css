@@ -1,4 +1,5 @@
 mat-action-list {
+  display: flex;
   flex-direction: column;
 }
 

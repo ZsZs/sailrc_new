@@ -1,0 +1,13 @@
+.web-layout {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(min(200px, 100%), 1fr));
+    column-gap: 10px;
+}
+
+.tablet-layout {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(min(200px, 100%), 1fr));
+    column-gap: 10px;
+}
+
+.handset-layout {}
