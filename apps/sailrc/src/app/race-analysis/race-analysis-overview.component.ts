@@ -2,13 +2,13 @@ import { Component, inject } from '@angular/core';
 import { MatCard, MatCardActions, MatCardContent, MatCardTitle } from '@angular/material/card';
 import { RouterLink } from '@angular/router';
 import { MatButton } from '@angular/material/button';
-import { LayoutService } from '@processpuzzle/util';
 import { NgClass } from '@angular/common';
+import { LayoutService } from '@processpuzzle/util';
 
 @Component({
-  selector: 'sailrc-race-execution',
-  templateUrl: './race-conduction.component.html',
-  styleUrls: ['./race-conduction.component.css', '../mat-card-grid.css'],
+  selector: 'sailrc-race-analysis',
+  templateUrl: './race-analysis-overview.component.html',
+  styleUrls: ['./race-analysis-overview.component.css', '../mat-card-grid.css'],
   imports: [
     MatCard,
     MatCardTitle,
@@ -19,6 +19,6 @@ import { NgClass } from '@angular/common';
     NgClass
   ]
 })
-export class RaceConductionComponent {
+export class RaceAnalysisOverviewComponent {
   readonly layoutService = inject(LayoutService);
 }

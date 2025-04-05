@@ -1,10 +1,10 @@
-import { RaceConductionComponent } from './race-conduction.component';
+import { RaceConductionOverviewComponent } from './race-conduction-overview.component';
 import { render, screen } from '@testing-library/angular';
 
 describe('RaceConductionComponent', () => {
 
   it('should create mat-cards with links', async () => {
-    await render(RaceConductionComponent);
+    await render(RaceConductionOverviewComponent);
     expect(screen.getByRole('link', { name: 'Participants'})).toBeTruthy();
     expect(screen.getByRole('link', { name: 'Field'})).toBeTruthy();
     expect(screen.getByRole('link', { name: 'Start'})).toBeTruthy();

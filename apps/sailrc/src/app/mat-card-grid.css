@@ -11,3 +11,14 @@
 }
 
 .handset-layout {}
+
+mat-card-title {
+    font-family: "Winky Sans", sans-serif;
+}
+
+mat-card-content {
+    font-family: cursive;
+    font-size: medium;
+    text-align: left;
+    padding-bottom: 10px;
+}

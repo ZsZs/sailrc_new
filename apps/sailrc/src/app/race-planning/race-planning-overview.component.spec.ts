@@ -1,10 +1,10 @@
-import { RacePlanningComponent } from './race-planning.component';
+import { RacePlanningOverviewComponent } from './race-planning-overview.component';
 import { render, screen } from '@testing-library/angular';
 
 describe('RacePlanningComponent', () => {
 
   it('should create mat-cards with links', async () => {
-    await render(RacePlanningComponent);
+    await render(RacePlanningOverviewComponent);
     expect(screen.getByRole('link', { name: 'Races'})).toBeTruthy();
     expect(screen.getByRole('link', { name: 'Sailors'})).toBeTruthy();
     expect(screen.getByRole('link', { name: 'Sailing Organizations'})).toBeTruthy();

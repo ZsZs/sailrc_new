@@ -5,9 +5,10 @@ import { MatButton } from '@angular/material/button';
 import { LayoutService } from '@processpuzzle/util';
 import { NgClass } from '@angular/common';
 
-@Component( {
-  selector: 'sailrc-race-preparation',
-  templateUrl: './race-planning.component.html',
+@Component({
+  selector: 'sailrc-race-execution',
+  templateUrl: './race-conduction-overview.component.html',
+  styleUrls: ['./race-conduction-overview.component.css', '../mat-card-grid.css'],
   imports: [
     MatCard,
     MatCardTitle,
@@ -16,9 +17,8 @@ import { NgClass } from '@angular/common';
     RouterLink,
     MatButton,
     NgClass
-  ],
-  styleUrls: [ './race-planning.component.css', '../mat-card-grid.css' ]
+  ]
 })
-export class RacePlanningComponent {
+export class RaceConductionOverviewComponent {
   readonly layoutService = inject(LayoutService);
 }

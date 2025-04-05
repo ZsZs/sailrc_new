@@ -9,7 +9,7 @@ import { NgClass } from '@angular/common';
   selector: 'app-content',
   templateUrl: './home.component.html',
   imports: [ MatCardModule, RouterLink, MatButton, NgClass ],
-  styleUrl: './home.component.css',
+  styleUrls: ['./home.component.css', '../mat-card-grid.css'],
 })
 export class HomeComponent {
   readonly layoutService = inject(LayoutService);
