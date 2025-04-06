@@ -1,13 +1,14 @@
 import { expect, Locator, Page } from '@playwright/test';
 
 export class ApplicationPage {
-  readonly page: Page;
+  readonly appContent: Locator;
   readonly appFooter: Locator;
   readonly appHeader: Locator;
   readonly appRoot: Locator;
   readonly appSidenav: Locator;
   readonly navigationList: Locator;
-  appContent: Locator | undefined;
+  readonly page: Page;
+  readonly raceCard: Locator;
   appUtils: Locator | undefined;
   baseForms: Locator | undefined;
 
@@ -17,20 +18,20 @@ export class ApplicationPage {
     this.appHeader = page.locator('app-root > app-header');
     this.appSidenav = page.locator('app-root > mat-sidenav-container');
     this.appFooter = page.locator('app-root > app-footer');
+    this.appContent = page.locator('app-root > mat-sidenav-container > app-content');
     this.navigationList = page.locator('app-root > mat-sidenav-container mat-nav-list');
+    this.raceCard = this.appContent.getByRole('link', { name: 'Plan Race' });
   }
 
-  async goto() {
+  async gotoHome() {
     await this.page.goto('/');
     await this.page.waitForURL('**/home');
-    this.appContent = this.page.locator('app-root > mat-sidenav-container > app-content');
   }
 
-  async navigateToUtilsPage() {
+  async navigateToRacePlanningOverview() {
     expect(this.navigationList).toBeTruthy();
     await this.navigationList.locator(':nth-match(mat-list-item, 2)').click();
-    await this.page.waitForURL('**/util');
-    this.appUtils = this.page.locator('app-root > mat-sidenav-container > app-utils');
+    await this.page.waitForURL('**/race-planning/overview');
   }
 
   async navigateToBaseFormPage() {

@@ -44,6 +44,21 @@ body {
   --mdc-dialog-container-shape: 0px;
 }
 
+mat-card {
+  margin: 5px;
+  padding: 5px;
+  width: 100%;
+}
+
+mat-card-actions {
+  margin-top: auto;
+  text-align: center;
+}
+
+mat-card-actions button {
+  margin: 5px;
+}
+
 @function cmyk($c, $m, $y, $k) {
 
   $c: calc($c / 100);

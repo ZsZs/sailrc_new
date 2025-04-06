@@ -1,10 +1,16 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
+import { RouterLink } from '@angular/router';
+import { MatButton } from '@angular/material/button';
+import { LayoutService } from '@processpuzzle/util';
+import { NgClass } from '@angular/common';
 
 @Component({
   selector: 'app-content',
   templateUrl: './home.component.html',
-  imports: [MatCardModule],
-  styleUrl: './home.component.css',
+  imports: [ MatCardModule, RouterLink, MatButton, NgClass ],
+  styleUrls: ['./home.component.css', '../mat-card-grid.css'],
 })
-export class HomeComponent {}
+export class HomeComponent {
+  readonly layoutService = inject(LayoutService);
+}

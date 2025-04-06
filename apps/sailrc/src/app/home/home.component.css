@@ -1,19 +1,13 @@
-.floating-cards-container {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
+.web-layout, .tablet-layout {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
 }
 
-.floating-card mat-card-header mat-card-content mat-card-actions {
+.handset-layout {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-}
-
-.floating-card:first-child {
-  grid-column: span 2;
-}
-
-mat-card {
-  margin: 5px;
+  justify-content: space-between;
 }

@@ -12,11 +12,12 @@
   "scripts": {
     "config-env-sailrc": "ts-node apps/sailrc/src/assets/setEnv.ts",
     "run-firebase-emulator": "firebase emulators:start",
-    "serve-processpuzzle-testbed": "npm run config-env-sailrc -- --environment=dev && nx run sailrc:serve --configuration=de-DE",
+    "serve-sailrc": "npm run config-env-sailrc -- --environment=dev && nx run sailrc:serve --configuration=de-DE",
+    "debug-sailrc": "npx playwright codegen http://localhost:4200",
     "lint-sailrc": "nx run sailrc:lint --configuration=ci --no-cloud",
     "test-sailrc": "nx run sailrc:test --configuration=ci --coverage --no-cloud",
     "e2e-test-sailrc": "nx e2e sailrc-e2e --no-cloud",
-    "build-sailrc": "nx run sailrc:build --configuration=production"
+    "build-sailrc": "nx run sailrc:build --configuration=production --no-cloud"
   },
   "dependencies": {
     "@angular/animations": "~19.2.4",
