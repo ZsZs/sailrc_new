@@ -103,4 +103,4 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           title: "sailrc/${{steps.package-version.outputs.current-version}}"
-          tag: "sailrc-${{ steps.package-version.outputs.current-version }}"
+          tag: "sailrc@${{ steps.package-version.outputs.current-version }}"
