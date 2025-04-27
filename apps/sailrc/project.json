@@ -19,7 +19,16 @@
             "glob": "**/*",
             "input": "apps/sailrc/public"
           },
-          "apps/sailrc/src/assets",
+          {
+            "glob": "**/*",
+            "input": "apps/sailrc/src/assets",
+            "output": "assets"
+          },
+          {
+            "glob": "**/*",
+            "input": "node_modules/@processpuzzle/widgets/assets/i18n",
+            "output": "assets/i18n"
+          },
           "apps/sailrc/src/environments",
           "apps/sailrc/src/run-time-conf"
         ],
@@ -65,12 +74,6 @@
         }
       },
       "defaultConfiguration": "development"
-    },
-    "extract-i18n": {
-      "executor": "@angular-devkit/build-angular:extract-i18n",
-      "options": {
-        "buildTarget": "sailrc:build"
-      }
     },
     "lint": {
       "executor": "@nx/eslint:lint",

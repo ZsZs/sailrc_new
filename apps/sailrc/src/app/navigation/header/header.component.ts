@@ -8,6 +8,9 @@ import { MatIcon } from '@angular/material/icon';
 import { MatMenu, MatMenuItem, MatMenuTrigger } from '@angular/material/menu';
 import { NgClass } from '@angular/common';
 import { MatListItemIcon, MatListItemTitle } from '@angular/material/list';
+import { LanguageSelectorComponent, NavigateBackComponent } from '@processpuzzle/widgets';
+import { AuthButtonComponent } from '@processpuzzle/auth';
+import { TranslocoDirective } from '@jsverse/transloco';
 
 @Component({
   selector: 'app-header',
@@ -24,7 +27,11 @@ import { MatListItemIcon, MatListItemTitle } from '@angular/material/list';
     MatMenuItem,
     MatListItemIcon,
     MatListItemTitle,
-    SubstringPipe
+    SubstringPipe,
+    LanguageSelectorComponent,
+    AuthButtonComponent,
+    NavigateBackComponent,
+    TranslocoDirective,
   ],
   templateUrl: 'header.component.html',
   styleUrl: 'header.component.css',

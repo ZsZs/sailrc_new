@@ -1,26 +1,28 @@
 <div [ngClass]="layoutService.layoutClass()">
-  <mat-card>
-    <mat-card-title><a routerLink="/race-planning">Plan Race</a></mat-card-title>
-    <mat-card-content>Plan, search and sign up for races.</mat-card-content>
-    <mat-card-actions>
-      <button mat-raised-button routerLink="/race-planning/doc">Read more...</button>
-      <button color="primary" mat-raised-button routerLink="/race-planning">Go...</button>
-    </mat-card-actions>
-  </mat-card>
-  <mat-card>
-    <mat-card-title><a routerLink="/race-conduction">Conduct Race</a></mat-card-title>
-    <mat-card-content>Start and conduct your race!</mat-card-content>
-    <mat-card-actions>
-      <button mat-raised-button routerLink="/race-conduction/doc">Read more...</button>
-      <button color="primary" mat-raised-button routerLink="/race-conduction">Go...</button>
-    </mat-card-actions>
-  </mat-card>
-  <mat-card>
-    <mat-card-title><a routerLink="/race-analysis">Analyse Race</a></mat-card-title>
-    <mat-card-content>Animate and analyse your race.</mat-card-content>
-    <mat-card-actions>
-      <button mat-raised-button routerLink="/race-analysis/doc">Read more...</button>
-      <button color="primary" mat-raised-button routerLink="/race-analysis">Go...</button>
-    </mat-card-actions>
-  </mat-card>
+  <ng-container *transloco="let t; prefix: 'navigation'">
+    <mat-card>
+      <mat-card-title><a routerLink="/race-planning">{{t('plan_race')}}</a></mat-card-title>
+      <mat-card-content>{{ t('plan_race_card_content') }}</mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button routerLink="/race-planning/doc">{{t('read_more')}}</button>
+        <button color="primary" mat-raised-button routerLink="/race-planning">{{t('go')}}</button>
+      </mat-card-actions>
+    </mat-card>
+    <mat-card>
+      <mat-card-title><a routerLink="/race-conduction">{{ t('conduct_race') }}</a></mat-card-title>
+      <mat-card-content>{{ t('conduct_race_card_content') }}</mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button routerLink="/race-conduction/doc">{{ t('read_more') }}</button>
+        <button color="primary" mat-raised-button routerLink="/race-conduction">{{ t('go') }}</button>
+      </mat-card-actions>
+    </mat-card>
+    <mat-card>
+      <mat-card-title><a routerLink="/race-analysis">{{ t('analyse_race') }}</a></mat-card-title>
+      <mat-card-content>{{ t('analyse_race_card_content') }}</mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button routerLink="/race-analysis/doc">{{ t('read_more') }}</button>
+        <button color="primary" mat-raised-button routerLink="/race-analysis">{{ t('go') }}</button>
+      </mat-card-actions>
+    </mat-card>
+  </ng-container>
 </div>

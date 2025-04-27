@@ -1,64 +1,66 @@
 <div [ngClass]="layoutService.layoutClass()">
+  <ng-container *transloco="let t; prefix: 'race_conduction'">
   <mat-card>
-    <mat-card-title><a routerLink="/race-conduction/participant">Participants</a></mat-card-title>
-    <mat-card-content>Record participants.</mat-card-content>
+    <mat-card-title><a routerLink="/race-conduction/participant">{{ t('participants') }}</a></mat-card-title>
+    <mat-card-content>{{ t('participants_card_content') }}</mat-card-content>
     <mat-card-actions>
-      <button mat-raised-button>Read more...</button>
-      <button color="primary" mat-raised-button routerLink="/race-conduction/participant">Go...</button>
+      <button mat-raised-button>{{t('read_more')}}</button>
+      <button color="primary" mat-raised-button routerLink="/race-conduction/participant">{{t('go')}}</button>
     </mat-card-actions>
   </mat-card>
 
   <mat-card>
-    <mat-card-title><a routerLink="/race-conduction/field">Field</a></mat-card-title>
-    <mat-card-content>Mark race field, with bouy positions.</mat-card-content>
+    <mat-card-title><a routerLink="/race-conduction/field">{{ t('field') }}</a></mat-card-title>
+    <mat-card-content>{{t('field_card_content')}}</mat-card-content>
     <mat-card-actions>
-      <button mat-raised-button>Read more...</button>
-      <button color="primary" mat-raised-button routerLink="/race-conduction/field">Go...</button>
+      <button mat-raised-button>{{t('read_more')}}</button>
+      <button color="primary" mat-raised-button routerLink="/race-conduction/field">{{t('go')}}</button>
     </mat-card-actions>
   </mat-card>
 
   <mat-card>
-    <mat-card-title><a routerLink="/race-conduction">Start</a></mat-card-title>
-    <mat-card-content>Set start time, count down, help with flags and signs.</mat-card-content>
+    <mat-card-title><a routerLink="/race-conduction">{{ t('start') }}</a></mat-card-title>
+    <mat-card-content>{{t('start_card_content')}}</mat-card-content>
     <mat-card-actions>
-      <button mat-raised-button>Read more...</button>
-      <button color="primary" mat-raised-button routerLink="/race-conduction">Go...</button>
+      <button mat-raised-button>{{t('read_more')}}</button>
+      <button color="primary" mat-raised-button routerLink="/race-conduction">{{t('go')}}</button>
     </mat-card-actions>
   </mat-card>
 
   <mat-card>
-    <mat-card-title><a routerLink="/race-conduction">Finish</a></mat-card-title>
-    <mat-card-content>Record arrival time, take a photo or record arrivals.</mat-card-content>
+    <mat-card-title><a routerLink="/race-conduction">{{ t('finish') }}</a></mat-card-title>
+    <mat-card-content>{{t('finish_card_content')}}</mat-card-content>
     <mat-card-actions>
-      <button mat-raised-button>Read more...</button>
-      <button color="primary" mat-raised-button routerLink="/race-conduction">Go...</button>
+      <button mat-raised-button>{{t('read_more')}}</button>
+      <button color="primary" mat-raised-button routerLink="/race-conduction">{{t('go')}}</button>
     </mat-card-actions>
   </mat-card>
 
   <mat-card>
-    <mat-card-title><a routerLink="/race-conduction">Trace</a></mat-card-title>
-    <mat-card-content>Trace my boat or all the boats, or follow all boats depending on your role.</mat-card-content>
+    <mat-card-title><a routerLink="/race-conduction">{{ t('trace') }}</a></mat-card-title>
+    <mat-card-content>{{t('trace_card_content')}}</mat-card-content>
     <mat-card-actions>
-      <button mat-raised-button>Read more...</button>
-      <button color="primary" mat-raised-button routerLink="/race-conduction">Go...</button>
+      <button mat-raised-button>{{t('read_more')}}</button>
+      <button color="primary" mat-raised-button routerLink="/race-conduction">{{t('go')}}</button>
     </mat-card-actions>
   </mat-card>
 
   <mat-card>
-    <mat-card-title><a routerLink="/race-conduction">Broadcast</a></mat-card-title>
-    <mat-card-content>Broadcast or watch race live</mat-card-content>
+    <mat-card-title><a routerLink="/race-conduction">{{ t('broadcast') }}</a></mat-card-title>
+    <mat-card-content>{{t('trace_card_content')}}</mat-card-content>
     <mat-card-actions>
-      <button mat-raised-button>Read more...</button>
-      <button color="primary" mat-raised-button routerLink="/race-conduction">Go...</button>
+      <button mat-raised-button>{{t('read_more')}}</button>
+      <button color="primary" mat-raised-button routerLink="/race-conduction">{{t('go')}}</button>
     </mat-card-actions>
   </mat-card>
 
   <mat-card>
-    <mat-card-title><a routerLink="/race-conduction">Chat</a></mat-card-title>
-    <mat-card-content>Keep in touch with fellows or race commitee.</mat-card-content>
+    <mat-card-title><a routerLink="/race-conduction">{{ t('chat') }}</a></mat-card-title>
+    <mat-card-content>{{t('chat_card_content')}}</mat-card-content>
     <mat-card-actions>
-      <button mat-raised-button>Read more...</button>
-      <button color="primary" mat-raised-button routerLink="/race-conduction">Go...</button>
+      <button mat-raised-button>{{t('read_more')}}</button>
+      <button color="primary" mat-raised-button routerLink="/race-conduction">{{t('go')}}</button>
     </mat-card-actions>
   </mat-card>
+  </ng-container>
 </div>

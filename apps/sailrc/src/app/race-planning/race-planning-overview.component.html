@@ -1,50 +1,52 @@
 <div [ngClass]="layoutService.layoutClass()">
+  <ng-container *transloco="let t; prefix: 'race_planning'">
     <mat-card>
-        <mat-card-title><a routerLink="/race-planning/race">Races</a></mat-card-title>
-        <mat-card-content>Plan, search and sign up for races.</mat-card-content>
+        <mat-card-title><a routerLink="/race-planning/race">{{ t('races') }}</a></mat-card-title>
+        <mat-card-content>{{t('races_card_content')}}</mat-card-content>
         <mat-card-actions>
-            <button mat-raised-button>Read more...</button>
-            <button color="primary" mat-raised-button routerLink="/race-planning/race">Go...</button>
+            <button mat-raised-button>{{t('read_more')}}</button>
+            <button color="primary" mat-raised-button routerLink="/race-planning/race">{{t('go')}}</button>
         </mat-card-actions>
     </mat-card>
     <mat-card>
-        <mat-card-title><a routerLink="/race-planning/sailor">Sailors</a></mat-card-title>
-        <mat-card-content>Register yourself and your boat</mat-card-content>
+        <mat-card-title><a routerLink="/race-planning/sailor">{{ t('sailors') }}</a></mat-card-title>
+        <mat-card-content>{{t('sailors_card_content')}}</mat-card-content>
         <mat-card-actions>
-            <button mat-raised-button>Read more...</button>
-            <button color="primary" mat-raised-button routerLink="/race-planning/sailor">Go...</button>
+            <button mat-raised-button>{{t('read_more')}}</button>
+            <button color="primary" mat-raised-button routerLink="/race-planning/sailor">{{t('go')}}</button>
         </mat-card-actions>
     </mat-card>
     <mat-card>
-        <mat-card-title><a routerLink="/race-planning/yacht-club">Sailing Organizations</a></mat-card-title>
-        <mat-card-content>Register your sailing organization.</mat-card-content>
+        <mat-card-title><a routerLink="/race-planning/yacht-club">{{ t('sailing_org') }}</a></mat-card-title>
+        <mat-card-content>{{t('sailing_org_card_content')}}</mat-card-content>
         <mat-card-actions>
-            <button mat-raised-button>Read more...</button>
-            <button color="primary" mat-raised-button routerLink="/race-planning/yacht-club">Go...</button>
+            <button mat-raised-button>{{t('read_more')}}</button>
+            <button color="primary" mat-raised-button routerLink="/race-planning/yacht-club">{{t('go')}}</button>
         </mat-card-actions>
     </mat-card>
     <mat-card>
-        <mat-card-title><a routerLink="/race-planning/boat">Boats</a></mat-card-title>
-        <mat-card-content>Register, edit, search your boat.</mat-card-content>
+        <mat-card-title><a routerLink="/race-planning/boat">{{ t('boats') }}</a></mat-card-title>
+        <mat-card-content>{{t('boats_card_content')}}</mat-card-content>
         <mat-card-actions>
-            <button mat-raised-button>Read more...</button>
-            <button color="primary" mat-raised-button routerLink="/race-planning/boat">Go...</button>
+            <button mat-raised-button>{{t('read_more')}}</button>
+            <button color="primary" mat-raised-button routerLink="/race-planning/boat">{{t('go')}}</button>
         </mat-card-actions>
     </mat-card>
     <mat-card>
-        <mat-card-title><a routerLink="/race-planning/boat-class">Boat Classes</a></mat-card-title>
-        <mat-card-content>Register, edit, search your boat type.</mat-card-content>
+        <mat-card-title><a routerLink="/race-planning/boat-class">{{ t('boat_classes') }}</a></mat-card-title>
+        <mat-card-content>{{t('boat_classes_card_content')}}</mat-card-content>
         <mat-card-actions>
-            <button mat-raised-button>Read more...</button>
-            <button color="primary" mat-raised-button routerLink="/race-planning/boat-class">Go...</button>
+            <button mat-raised-button>{{t('read_more')}}</button>
+            <button color="primary" mat-raised-button routerLink="/race-planning/boat-class">{{t('go')}}</button>
         </mat-card-actions>
     </mat-card>
     <mat-card>
-        <mat-card-title><a routerLink="/race-planning/sailing-place">Sailing Places</a></mat-card-title>
-        <mat-card-content>Search, edit, or register new the details of your sailing place.</mat-card-content>
+        <mat-card-title><a routerLink="/race-planning/sailing-place">{{ t('sailing_places') }}</a></mat-card-title>
+        <mat-card-content>{{t('sailing_places_card_content')}}</mat-card-content>
         <mat-card-actions>
-            <button mat-raised-button>Read more...</button>
-            <button color="primary" mat-raised-button routerLink="/race-planning/sailing-place">Go...</button>
+            <button mat-raised-button>{{t('read_more')}}</button>
+            <button color="primary" mat-raised-button routerLink="/race-planning/sailing-place">{{t('go')}}</button>
         </mat-card-actions>
     </mat-card>
+  </ng-container>
 </div>

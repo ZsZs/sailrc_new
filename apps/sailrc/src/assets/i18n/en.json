@@ -1,0 +1,69 @@
+{
+  "navigation": {
+    "home": "Home",
+
+    "plan_race": "Plan Race",
+    "race_planning_overview": "Race Planning Overview",
+    "race_planning_documentation": "Race Planning Documentation",
+    "plan_race_card_content": "Plan, search and sign up for races.",
+
+    "conduct_race": "Conduct Race",
+    "conduct_race_card_content": "Start and conduct your race!",
+    "race_conduction_overview": "Race Conduction Overview",
+    "race_conduction_documentation": "Race Conduction Documentation",
+
+    "analyse_race": "Analyse Race",
+    "analyse_race_card_content": "Animate and analyse your race.",
+    "race_analysis_overview": "Race Analysis Overview",
+    "race_analysis_documentation": "Race Analysis Documentation",
+    "read_more": "Read more...",
+    "go": "Go"
+  },
+
+  "race_planning": {
+    "races": "Races",
+    "races_card_content": "Plan, search and sign up for races.",
+    "sailors": "Sailors",
+    "sailors_card_content": "Register yourself and your boat",
+    "sailing_org": "Sailing Organisations",
+    "sailing_org_card_content": "Register your sailing organization.",
+    "boats": "Boats",
+    "boats_card_content": "Register, edit, search your boat.",
+    "boat_classes": "Boat Classes",
+    "boat_classes_card_content": "Register, edit, search your boat type.",
+    "sailing_places": "Sailing Places",
+    "sailing_places_card_content": "Search, edit, or register new the details of your sailing place.",
+    "read_more": "Read more...",
+    "go": "Go"
+  },
+  "race_conduction": {
+    "participants": "Participants",
+    "participants_card_content": "Acknowledge participants.",
+    "field": "Field",
+    "field_card_content": "Mark race field, with buoy positions.",
+    "start": "Start",
+    "start_card_content": "Set start time, count down, help with flags and signs.",
+    "finish": "Finish",
+    "finish_card_content": "Record arrival time, take a photo or record arrivals.",
+    "trace": "Trace",
+    "trace_card_content": "Trace my boat or all the boats, or follow all boats depending on your role.",
+    "broadcast": "Broadcast",
+    "broadcast_card_content": "Broadcast or watch race live",
+    "chat": "Chat",
+    "chat_card_content": "Keep in touch with fellows or race committee.",
+    "read_more": "Read more...",
+    "go": "Go"
+  },
+  "race_analysis": {
+    "results": "Results",
+    "results_card_content": "View race results.",
+    "replay": "Replay",
+    "replay_card_content": "Replay tracking or video recordings.",
+    "analyse": "Analyse",
+    "analyse_card_content": "Analyse your racing tactic compared with others supported by AI.",
+    "chat": "Chat",
+    "chat_card_content": "Chat with fellows and audience.",
+    "read_more": "Read more...",
+    "go": "Go"
+  }
+}

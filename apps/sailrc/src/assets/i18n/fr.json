@@ -1,0 +1,69 @@
+{
+  "navigation": {
+    "home": "Accueil",
+
+    "plan_race": "Planifier Course",
+    "race_planning_overview": "Aperçu de Planification de Course",
+    "race_planning_documentation": "Documentation de Planification de Course",
+    "plan_race_card_content": "Planifier, rechercher et s'inscrire aux courses.",
+
+    "conduct_race": "Mener Course",
+    "conduct_race_card_content": "Démarrez et menez votre course!",
+    "race_conduction_overview": "Aperçu de Conduite de Course",
+    "race_conduction_documentation": "Documentation de Conduite de Course",
+
+    "analyse_race": "Analyser Course",
+    "analyse_race_card_content": "Animez et analysez votre course.",
+    "race_analysis_overview": "Aperçu d'Analyse de Course",
+    "race_analysis_documentation": "Documentation d'Analyse de Course",
+    "read_more": "Lire plus...",
+    "go": "Aller"
+  },
+
+  "race_planning": {
+    "races": "Courses",
+    "races_card_content": "Planifier, rechercher et s'inscrire aux courses.",
+    "sailors": "Marins",
+    "sailors_card_content": "Enregistrez-vous et votre bateau",
+    "sailing_org": "Organisations de Voile",
+    "sailing_org_card_content": "Enregistrez votre organisation de voile.",
+    "boats": "Bateaux",
+    "boats_card_content": "Enregistrez, modifiez, recherchez votre bateau.",
+    "boat_classes": "Classes de Bateaux",
+    "boat_classes_card_content": "Enregistrez, modifiez, recherchez votre type de bateau.",
+    "sailing_places": "Lieux de Navigation",
+    "sailing_places_card_content": "Recherchez, modifiez ou enregistrez les détails de votre lieu de navigation.",
+    "read_more": "Lire plus...",
+    "go": "Aller"
+  },
+  "race_conduction": {
+    "participants": "Participants",
+    "participants_card_content": "Reconnaître les participants.",
+    "field": "Terrain",
+    "field_card_content": "Marquer le terrain de course, avec positions des bouées.",
+    "start": "Départ",
+    "start_card_content": "Définir l'heure de départ, compte à rebours, aide avec drapeaux et signes.",
+    "finish": "Arrivée",
+    "finish_card_content": "Enregistrer l'heure d'arrivée, prendre une photo ou enregistrer les arrivées.",
+    "trace": "Tracer",
+    "trace_card_content": "Tracez votre bateau ou tous les bateaux, ou suivez tous les bateaux selon votre rôle.",
+    "broadcast": "Diffuser",
+    "broadcast_card_content": "Diffuser ou regarder la course en direct",
+    "chat": "Chat",
+    "chat_card_content": "Restez en contact avec les collègues ou le comité de course.",
+    "read_more": "Lire plus...",
+    "go": "Aller"
+  },
+  "race_analysis": {
+    "results": "Résultats",
+    "results_card_content": "Voir les résultats de la course.",
+    "replay": "Replay",
+    "replay_card_content": "Rejouer le suivi ou les enregistrements vidéo.",
+    "analyse": "Analyser",
+    "analyse_card_content": "Analysez votre tactique de course comparée aux autres avec l'aide de l'IA.",
+    "chat": "Chat",
+    "chat_card_content": "Chattez avec les collègues et le public.",
+    "read_more": "Lire plus...",
+    "go": "Aller"
+  }
+}

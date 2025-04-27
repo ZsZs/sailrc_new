@@ -2,7 +2,12 @@ export default {
   displayName: 'sailrc',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/apps/sailrc',
+  coverageDirectory: 'reports/coverage',
+  coverageReporters: [
+    ['lcov', { projectRoot: 'apps/sailrc' }],
+    ['text', { skipFull: true }],
+  ],
+  collectCoverageFrom: ['src/**/*.ts', '!src/main.ts', '!src/public-api.ts', '!src/**/*.provider.ts', '!src/**/*.module.ts', '!src/**/*.spec.ts', '!src/environments/**/*.ts'],
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',

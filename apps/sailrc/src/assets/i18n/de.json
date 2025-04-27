@@ -1,0 +1,69 @@
+{
+  "navigation": {
+    "home": "Startseite",
+
+    "plan_race": "Rennen planen",
+    "race_planning_overview": "Rennplanungsübersicht",
+    "race_planning_documentation": "Rennplanungsdokumentation",
+    "plan_race_card_content": "Rennen planen, suchen und anmelden.",
+
+    "conduct_race": "Rennen durchführen",
+    "conduct_race_card_content": "Starten und führen Sie Ihr Rennen durch!",
+    "race_conduction_overview": "Renndurchführungsübersicht",
+    "race_conduction_documentation": "Renndurchführungsdokumentation",
+
+    "analyse_race": "Rennen analysieren",
+    "analyse_race_card_content": "Animieren und analysieren Sie Ihr Rennen.",
+    "race_analysis_overview": "Rennanalyseübersicht",
+    "race_analysis_documentation": "Rennanalysedokumentation",
+    "read_more": "Mehr lesen...",
+    "go": "Los"
+  },
+
+  "race_planning": {
+    "races": "Rennen",
+    "races_card_content": "Rennen planen, suchen und anmelden.",
+    "sailors": "Segler",
+    "sailors_card_content": "Registrieren Sie sich und Ihr Boot",
+    "sailing_org": "Segelorganisationen",
+    "sailing_org_card_content": "Registrieren Sie Ihre Segelorganisation.",
+    "boats": "Boote",
+    "boats_card_content": "Registrieren, bearbeiten, suchen Sie Ihr Boot.",
+    "boat_classes": "Bootsklassen",
+    "boat_classes_card_content": "Registrieren, bearbeiten, suchen Sie Ihren Bootstyp.",
+    "sailing_places": "Segelplätze",
+    "sailing_places_card_content": "Suchen, bearbeiten oder registrieren Sie die Details Ihres Segelplatzes.",
+    "read_more": "Mehr lesen...",
+    "go": "Los"
+  },
+  "race_conduction": {
+    "participants": "Teilnehmer",
+    "participants_card_content": "Teilnehmer bestätigen.",
+    "field": "Feld",
+    "field_card_content": "Rennfeld markieren, mit Bojenpositionen.",
+    "start": "Start",
+    "start_card_content": "Startzeit festlegen, Countdown, Hilfe mit Flaggen und Zeichen.",
+    "finish": "Ziel",
+    "finish_card_content": "Ankunftszeit aufzeichnen, Foto machen oder Ankünfte aufzeichnen.",
+    "trace": "Verfolgen",
+    "trace_card_content": "Verfolgen Sie Ihr Boot oder alle Boote, oder folgen Sie allen Booten je nach Ihrer Rolle.",
+    "broadcast": "Übertragen",
+    "broadcast_card_content": "Rennen live übertragen oder ansehen",
+    "chat": "Chat",
+    "chat_card_content": "Bleiben Sie in Kontakt mit Kollegen oder dem Rennkomitee.",
+    "read_more": "Mehr lesen...",
+    "go": "Los"
+  },
+  "race_analysis": {
+    "results": "Ergebnisse",
+    "results_card_content": "Rennergebnisse anzeigen.",
+    "replay": "Wiederholung",
+    "replay_card_content": "Tracking oder Videoaufnahmen wiedergeben.",
+    "analyse": "Analysieren",
+    "analyse_card_content": "Analysieren Sie Ihre Renntaktik im Vergleich zu anderen mit KI-Unterstützung.",
+    "chat": "Chat",
+    "chat_card_content": "Chatten Sie mit Kollegen und Publikum.",
+    "read_more": "Mehr lesen...",
+    "go": "Los"
+  }
+}

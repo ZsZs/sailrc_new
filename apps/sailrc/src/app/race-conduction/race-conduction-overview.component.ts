@@ -4,6 +4,7 @@ import { RouterLink } from '@angular/router';
 import { MatButton } from '@angular/material/button';
 import { LayoutService } from '@processpuzzle/util';
 import { NgClass } from '@angular/common';
+import { TranslocoDirective } from '@jsverse/transloco';
 
 @Component({
   selector: 'sailrc-race-execution',
@@ -16,7 +17,8 @@ import { NgClass } from '@angular/common';
     MatCardActions,
     RouterLink,
     MatButton,
-    NgClass
+    NgClass,
+    TranslocoDirective
   ]
 })
 export class RaceConductionOverviewComponent {

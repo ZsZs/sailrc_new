@@ -1,0 +1,69 @@
+{
+  "navigation": {
+    "home": "Kezdőlap",
+
+    "plan_race": "Verseny tervezése",
+    "race_planning_overview": "Versenytervezési áttekintés",
+    "race_planning_documentation": "Versenytervezési dokumentáció",
+    "plan_race_card_content": "Versenyek tervezése, keresése és nevezése.",
+
+    "conduct_race": "Verseny lebonyolítása",
+    "conduct_race_card_content": "Indítsa el és bonyolítsa le a versenyét!",
+    "race_conduction_overview": "Versenylebonyolítási áttekintés",
+    "race_conduction_documentation": "Versenylebonyolítási dokumentáció",
+
+    "analyse_race": "Verseny elemzése",
+    "analyse_race_card_content": "Animálja és elemezze a versenyét.",
+    "race_analysis_overview": "Versenyelemzési áttekintés",
+    "race_analysis_documentation": "Versenyelemzési dokumentáció",
+    "read_more": "Tovább olvasás...",
+    "go": "Indulás"
+  },
+
+  "race_planning": {
+    "races": "Versenyek",
+    "races_card_content": "Versenyek tervezése, keresése és nevezése.",
+    "sailors": "Vitorlázók",
+    "sailors_card_content": "Regisztrálja magát és a hajóját",
+    "sailing_org": "Vitorlás szervezetek",
+    "sailing_org_card_content": "Regisztrálja vitorlás szervezetét.",
+    "boats": "Hajók",
+    "boats_card_content": "Regisztrálja, szerkessze, keresse a hajóját.",
+    "boat_classes": "Hajóosztályok",
+    "boat_classes_card_content": "Regisztrálja, szerkessze, keresse a hajótípusát.",
+    "sailing_places": "Vitorlázóhelyek",
+    "sailing_places_card_content": "Keresse, szerkessze vagy regisztrálja a vitorlázóhelyének részleteit.",
+    "read_more": "Tovább olvasás...",
+    "go": "Indulás"
+  },
+  "race_conduction": {
+    "participants": "Résztvevők",
+    "participants_card_content": "Résztvevők elismerése.",
+    "field": "Pálya",
+    "field_card_content": "Versenypálya kijelölése, bóják pozíciójával.",
+    "start": "Rajt",
+    "start_card_content": "Rajtidő beállítása, visszaszámlálás, segítség zászlókkal és jelzésekkel.",
+    "finish": "Cél",
+    "finish_card_content": "Érkezési idő rögzítése, fénykép készítése vagy érkezések rögzítése.",
+    "trace": "Nyomkövetés",
+    "trace_card_content": "Kövesse nyomon a saját hajóját vagy az összes hajót, vagy kövesse az összes hajót a szerepétől függően.",
+    "broadcast": "Közvetítés",
+    "broadcast_card_content": "Verseny élő közvetítése vagy megtekintése",
+    "chat": "Csevegés",
+    "chat_card_content": "Tartsa a kapcsolatot a társakkal vagy a versenyrendezőséggel.",
+    "read_more": "Tovább olvasás...",
+    "go": "Indulás"
+  },
+  "race_analysis": {
+    "results": "Eredmények",
+    "results_card_content": "Versenyeredmények megtekintése.",
+    "replay": "Visszajátszás",
+    "replay_card_content": "Nyomkövetés vagy videófelvételek visszajátszása.",
+    "analyse": "Elemzés",
+    "analyse_card_content": "Elemezze versenytaktikáját másokkal összehasonlítva, mesterséges intelligencia támogatásával.",
+    "chat": "Csevegés",
+    "chat_card_content": "Csevegjen társakkal és a közönséggel.",
+    "read_more": "Tovább olvasás...",
+    "go": "Indulás"
+  }
+}

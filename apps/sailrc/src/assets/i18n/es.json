@@ -1,0 +1,69 @@
+{
+  "navigation": {
+    "home": "Inicio",
+
+    "plan_race": "Planificar Regata",
+    "race_planning_overview": "Resumen de Planificación de Regata",
+    "race_planning_documentation": "Documentación de Planificación de Regata",
+    "plan_race_card_content": "Planificar, buscar e inscribirse en regatas.",
+
+    "conduct_race": "Realizar Regata",
+    "conduct_race_card_content": "¡Inicie y realice su regata!",
+    "race_conduction_overview": "Resumen de Realización de Regata",
+    "race_conduction_documentation": "Documentación de Realización de Regata",
+
+    "analyse_race": "Analizar Regata",
+    "analyse_race_card_content": "Anime y analice su regata.",
+    "race_analysis_overview": "Resumen de Análisis de Regata",
+    "race_analysis_documentation": "Documentación de Análisis de Regata",
+    "read_more": "Leer más...",
+    "go": "Ir"
+  },
+
+  "race_planning": {
+    "races": "Regatas",
+    "races_card_content": "Planificar, buscar e inscribirse en regatas.",
+    "sailors": "Navegantes",
+    "sailors_card_content": "Regístrese usted y su barco",
+    "sailing_org": "Organizaciones de Vela",
+    "sailing_org_card_content": "Registre su organización de vela.",
+    "boats": "Barcos",
+    "boats_card_content": "Registre, edite, busque su barco.",
+    "boat_classes": "Clases de Barcos",
+    "boat_classes_card_content": "Registre, edite, busque su tipo de barco.",
+    "sailing_places": "Lugares de Navegación",
+    "sailing_places_card_content": "Busque, edite o registre los detalles de su lugar de navegación.",
+    "read_more": "Leer más...",
+    "go": "Ir"
+  },
+  "race_conduction": {
+    "participants": "Participantes",
+    "participants_card_content": "Reconocer participantes.",
+    "field": "Campo",
+    "field_card_content": "Marcar campo de regata, con posiciones de boyas.",
+    "start": "Inicio",
+    "start_card_content": "Establecer hora de inicio, cuenta regresiva, ayuda con banderas y señales.",
+    "finish": "Meta",
+    "finish_card_content": "Registrar tiempo de llegada, tomar una foto o registrar llegadas.",
+    "trace": "Rastrear",
+    "trace_card_content": "Rastree su barco o todos los barcos, o siga todos los barcos según su rol.",
+    "broadcast": "Transmitir",
+    "broadcast_card_content": "Transmitir o ver la regata en vivo",
+    "chat": "Chat",
+    "chat_card_content": "Manténgase en contacto con compañeros o comité de regata.",
+    "read_more": "Leer más...",
+    "go": "Ir"
+  },
+  "race_analysis": {
+    "results": "Resultados",
+    "results_card_content": "Ver resultados de la regata.",
+    "replay": "Reproducir",
+    "replay_card_content": "Reproducir seguimiento o grabaciones de video.",
+    "analyse": "Analizar",
+    "analyse_card_content": "Analice su táctica de regata comparada con otros con apoyo de IA.",
+    "chat": "Chat",
+    "chat_card_content": "Chatee con compañeros y audiencia.",
+    "read_more": "Leer más...",
+    "go": "Ir"
+  }
+}

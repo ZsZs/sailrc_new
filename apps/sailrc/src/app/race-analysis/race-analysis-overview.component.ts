@@ -4,6 +4,7 @@ import { RouterLink } from '@angular/router';
 import { MatButton } from '@angular/material/button';
 import { NgClass } from '@angular/common';
 import { LayoutService } from '@processpuzzle/util';
+import { TranslocoDirective } from '@jsverse/transloco';
 
 @Component({
   selector: 'sailrc-race-analysis',
@@ -16,7 +17,8 @@ import { LayoutService } from '@processpuzzle/util';
     MatCardActions,
     RouterLink,
     MatButton,
-    NgClass
+    NgClass,
+    TranslocoDirective
   ]
 })
 export class RaceAnalysisOverviewComponent {
