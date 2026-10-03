@@ -10,7 +10,18 @@
     column-gap: 10px;
 }
 
-.handset-layout {}
+.handset-layout {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(min(200px, 100%), 1fr));
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+mat-card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(153, 217, 235);
+}
 
 mat-card-title {
     font-family: "Winky Sans", sans-serif;

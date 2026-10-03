@@ -26,6 +26,11 @@
           },
           {
             "glob": "**/*",
+            "input": "node_modules/@processpuzzle/auth/assets/i18n",
+            "output": "assets/i18n"
+          },
+          {
+            "glob": "**/*",
             "input": "node_modules/@processpuzzle/widgets/assets/i18n",
             "output": "assets/i18n"
           },
